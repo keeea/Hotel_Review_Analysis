@@ -48,6 +48,12 @@ Then we look at the polarity distribution of the integrated reviews. Most polari
 
 In summary, positive reviews are a bit more than negative reviews overall, but some negative reviews are very extreme. This result enlightens hotel managers that the most important thing to pay attention to is to reduce the appearance of these extremely negative comments, that is, to prioritize improving the shortest board rather than further optimizing the existing advantages.
 
+
+``` {.python}
+import altair as alt
+alt.renderers.enable('notebook')
+```
+
 ### The distribution of subjectivity
 
 The subjectivity of negative reviews is more concentrated at 0.4 and below, while positive reviews are more distributed above 0.5. It indicates that negative consumer reviews are often more objective than positive ones. Therefore, if hotels want to increase the number of positive reviews, it's best to provide customers with higher emotional value, such as low-cost surprise gifts or services, and a significantly warm attitude.
