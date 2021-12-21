@@ -10,17 +10,17 @@ toc: true
 toc_sticky: true
 ---
 
-# Words frequency analysis & Interactive word clouds
+## -Words frequency analysis & Interactive word clouds
 
 What are the **most commonly used words** in hotel reviews? Analyzing it can help hotel owners understand the **most valuable services** that reviewers care about.
 
-## **Count word frequencies**
+### **Count word frequencies**
 
 So let's start with the comprehensive data. After removing the meaningless pause words, the four most common terms are in order: room, staff, location, and breakfast, which represent the four fields consumers care about most about hotel accommodation.
 
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/word_frequency.png?raw=true)
 
-## Word clouds based on word frequency by countries
+### Word clouds based on word frequency by countries
 
 However, the focus does vary with the country and its tourism characteristics. So an **interactive word cloud** is made by the country and the largest number of words to show.
 
