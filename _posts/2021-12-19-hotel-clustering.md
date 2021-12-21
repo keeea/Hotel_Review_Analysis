@@ -8,9 +8,9 @@ tags:
   - Github Page
 tags: [dataviz, altair, hvplot, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
-hv-loader:
-  hv-chart-1: ["charts/polarity_dist.html", "280", "600"] # second argument is the height
-  hv-chart-2: ["charts/subjectivity_dist.html", "280", "600"] # second argument is the height
+altair-loader:
+  altair-chart-1: "charts/hotelAltair.json"
+  altair-chart-2: "charts/hotelAltair2.json"
 toc: true
 toc_sticky: true
 ---
@@ -33,4 +33,22 @@ toc_sticky: true
 
 ### Relationships between scores, subjectivity, and number of reviews
 
+<div id="altair-chart-1"></div>
+
+(Below is the process code to embed interactive plots:)
+```python
+import altair as alt
+alt.renderers.enable('notebook')
+```
 ### Relationships between scores, subjectivity, and number of reviews
+
+<div id="altair-chart-2"></div>
+
+(Below is the process code to embed interactive plots:)
+```python
+import altair as alt
+alt.renderers.enable('notebook')
+```
+### **Radar map for hotel clusters**
+
+![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/hotel.png?raw=true)
