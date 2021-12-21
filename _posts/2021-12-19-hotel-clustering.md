@@ -11,12 +11,11 @@ toc_sticky: true
 ---
 
 ## - Clustering based on DBSCAN
-11
+00
 ### Mean statistics for clusters`
 
 ### Relationships between scores, subjectivity, and number of reviews
 
-111
 
 <div id="altair-chart-1"></div>
 
@@ -24,15 +23,10 @@ toc_sticky: true
 
 ### Relationships between scores, subjectivity, and number of reviews
 
-22
+
 
 <div id="altair-chart-2"></div>
 
-(Below is the process code to embed interactive plots:)
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
 ### **Radar map for hotel clusters**
 
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/hotel.png?raw=true)
