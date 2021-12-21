@@ -8,15 +8,14 @@ tags:
   - Github Page
 tags: [dataviz, altair, hvplot, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
-altair-loader:
-  altair-chart-1: "charts/measlesAltair.json"
 hv-loader:
-  hv-chart-1: ["charts/measlesHvplot.html", "500"] # second argument is the height
+  hv-chart-1: ["polarity_dist.html", "300"] # second argument is the height
+  hv-chart-2: ["subjectivity_dist.html", "300"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
 
-## 4. Sentiment analysis
+## - Sentiment analysis
 
 Are customers' reviews of each hotel positive or negative, subjective or objective? Let's analyze negative, positive, and integrated reviews.
 
@@ -25,7 +24,7 @@ First, count how many reviews are overall unbiased (Polarity = 0) in integrated 
     Number of unbiased reviews:  45595
     Proportion of unbiased reviews:  17.24 %
 
-### The distribution of subjectivity
+### The distribution of polarity
 
 Polarity runs from -1 (most negative) to +1 (most positive). Plot the histograms of the polarities of positive, negative and integrated reviews together with different colors. We can see that the polarity of negative reviews is concentrated in 0-0.2, while the polarity of positive reviews is concentrated in the range of 0.3-0.7, which proves that the algorithm's evaluation value of review sentiment is larger than the normal one. Therefore, the polarity of the true neutral evaluation should be slightly greater than 0.
 
@@ -42,18 +41,16 @@ Then we look at the polarity distribution of the integrated reviews. Most polari
 
 In summary, positive reviews are a bit more than negative reviews overall, but some negative reviews are very extreme. This result enlightens hotel managers that the most important thing to pay attention to is to reduce the appearance of these extremely negative comments, that is, to prioritize improving the shortest board rather than further optimizing the existing advantages.
 
-### The distribution of subjectivity
-
-The subjectivity of negative reviews is more concentrated at 0.4 and below, while positive reviews are more distributed above 0.5. It indicates that negative consumer reviews are often more objective than positive ones. Therefore, if hotels want to increase the number of positive reviews, it's best to provide customers with higher emotional value, such as low-cost surprise gifts or services, and a significantly warm attitude.
-
 ::: {#hv-chart-1}
 :::
 
-### Explore the monthly trend of polarity
+### The distribution of subjectivity
 
-At last, explore the monthly trend of polarity and subjectivity. Interestingly, the reviewers' comments text will be more positive and subjective in the summer. This phenomenon may be because the weather and temperature will affect the users' mood or experience. In any case, it means that European hotels need to pay more attention to maintaining user experience, complaints, and evaluations in winter.
+The subjectivity of negative reviews is more concentrated at 0.4 and below, while positive reviews are more distributed above 0.5. It indicates that negative consumer reviews are often more objective than positive ones. Therefore, if hotels want to increase the number of positive reviews, it's best to provide customers with higher emotional value, such as low-cost surprise gifts or services, and a significantly warm attitude.
 
 ::: {#hv-chart-2}
 :::
 
 ### Explore the monthly trend of subjectivity
+
+At last, explore the monthly trend of polarity and subjectivity. Interestingly, the reviewers' comments text will be more positive and subjective in the summer. This phenomenon may be because the weather and temperature will affect the users' mood or experience. In any case, it means that European hotels need to pay more attention to maintaining user experience, complaints, and evaluations in winter.![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/polarity_trend.png?raw=true "fig.1 - Polarity trend"){width="350"}![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/sub_trend.png?raw=true "Subjectivity trend"){width="350"}
