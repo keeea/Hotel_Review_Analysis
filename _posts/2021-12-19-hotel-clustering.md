@@ -11,7 +11,7 @@ toc_sticky: true
 
 ## - Clustering based on DBSCAN
 00
-### Mean statistics for clusters`
+### Mean statistics for clusters
 
 ### Relationships between scores, subjectivity, and number of reviews
 
@@ -24,7 +24,6 @@ toc_sticky: true
 
 
 
-<div id="altair-chart-2"></div>
 
 ### **Radar map for hotel clusters**
 
