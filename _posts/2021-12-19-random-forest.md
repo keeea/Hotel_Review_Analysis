@@ -54,6 +54,8 @@ At the same time, we can see that the most important predictors are:
 
 -   the current average hotel score
 
+
 <div id="hv-chart-1"></div>
+
 
 Therefore, just like the sentiment analysis conclusion, to improve the overall scores, the hotels should try to make up for the shortcomings to reduce the factors that can be criticized, and provide users with higher emotional value.
