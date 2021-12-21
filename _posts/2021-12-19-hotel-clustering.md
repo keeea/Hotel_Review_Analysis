@@ -4,7 +4,7 @@ date: 2021-12-19
 published: true
 tags: [dataviz, altair, hvplot, holoviews]
 altair-loader:
-  altair-chart-1: "charts/measlesAltair.json"
+  altair-chart-1: "charts/labelAltair.json"
 toc: true
 toc_sticky: true
 ---
