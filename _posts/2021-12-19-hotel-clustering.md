@@ -10,18 +10,15 @@ toc_sticky: true
 ---
 
 ## - Clustering based on DBSCAN
-
-### Mean statistics for clusters
-
-
+sssss
+### Mean statistics for clusters`
 
 ### Relationships between scores, subjectivity, and number of reviews
 
 <div id="altair-chart-1"></div>
 
 (Below is the process code to embed interactive plots:)
-
-``` {.python}
+```python
 import altair as alt
 alt.renderers.enable('notebook')
 ```
@@ -32,7 +29,7 @@ alt.renderers.enable('notebook')
 
 (Below is the process code to embed interactive plots:)
 
-``` {.python}
+```python
 import altair as alt
 alt.renderers.enable('notebook')
 ```
