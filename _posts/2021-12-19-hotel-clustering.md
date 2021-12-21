@@ -33,22 +33,28 @@ toc_sticky: true
 
 ### Relationships between scores, subjectivity, and number of reviews
 
-<div id="altair-chart-1"></div>
+::: {#altair-chart-1}
+:::
 
 (Below is the process code to embed interactive plots:)
-```python
+
+``` {.python}
 import altair as alt
 alt.renderers.enable('notebook')
 ```
+
 ### Relationships between scores, subjectivity, and number of reviews
 
-<div id="altair-chart-2"></div>
+::: {#altair-chart-2}
+:::
 
 (Below is the process code to embed interactive plots:)
-```python
+
+``` {.python}
 import altair as alt
 alt.renderers.enable('notebook')
 ```
+
 ### **Radar map for hotel clusters**
 
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/hotel.png?raw=true)
