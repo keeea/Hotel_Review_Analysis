@@ -2,15 +2,10 @@
 title: "Classify hotels based on their ratings and reviews"
 date: 2021-12-19
 published: true
-categories:
-  - blog
-tags:
-  - Github Page
 tags: [dataviz, altair, hvplot, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
 altair-loader:
-  altair-chart-1: "charts/hotelAltair.json"
-  altair-chart-2: "charts/hotelAltair2.json"
+  altair-chart-1: "charts/hotelsAltair.json"
 toc: true
 toc_sticky: true
 ---
