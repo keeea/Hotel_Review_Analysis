@@ -9,7 +9,7 @@ tags:
 tags: [dataviz, altair, hvplot, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
 hv-loader:
-  hv-chart-1: ["feature_imp.html", "280", "600"] # second argument is the height
+  hv-chart-1: ["feature_imp.html", "280"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
