@@ -5,12 +5,13 @@ published: true
 tags: [dataviz, altair, hvplot, holoviews]
 altair-loader:
   altair-chart-1: "charts/hotelsAltair.json"
+  altair-chart-2: "charts/hotelsAltair2.json"
 toc: true
 toc_sticky: true
 ---
 
 ## - Clustering based on DBSCAN
-sssss
+tt
 ### Mean statistics for clusters`
 
 ### Relationships between scores, subjectivity, and number of reviews
