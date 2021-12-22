@@ -39,14 +39,30 @@ The final model is based on the hotels' situation:
 
 -   the month of comments
 
-And here is the correlation matrix of four major predictors.
+Here is a correlation matrix of four major predictors to see whther they are multilinear.
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/matrix.png?raw=true)
+
+This is the simplified version of the prediction model, excluding feature engineering, parameters optimization and some model evaluations. 
+```{python}
+# Set up the column transformer with two transformers
+transformer = ColumnTransformer(
+    transformers=[("num", StandardScaler(), num_cols),
+        ("cat", OneHotEncoder(handle_unknown="ignore"), cat_cols)])
+
+# Initialize the pipeline after optimazing parameters
+pipe2 = make_pipeline(transformer, RandomForestRegressor(n_estimators=600, 
+                                       max_depth=13,
+                                       random_state=42))
+
+# Fit the training set
+pipe2.fit(train_set, y_train);
+```
 
 ### **Explore important predictors**
 
 The score of this model is 0.45, and the mean percentage error is **13%.** The hotel can input the user's comment text obtained in advance to predict the score and carry out corresponding countermeasures.
 
-At the same time, we can see that the most important predictors are:
+Explore this **interactive** bar chart, we can see that the most important predictors are:
 
 -   **the number of words in negative reviews** given by reviewers
 
