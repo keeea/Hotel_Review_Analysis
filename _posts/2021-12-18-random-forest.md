@@ -1,6 +1,6 @@
 ---
 title: "Secrets of higher rating"
-date: 2021-12-19
+date: 2021-12-18
 published: true
 categories:
   - blog
@@ -13,10 +13,10 @@ toc: true
 toc_sticky: true
 ---
 
-## **- Predict scores from reviewers**
+## - Predict scores from reviewers
 Is a customer's rating of a hotel predictable? What relationship do the customer's review text and the rating give? I try to build **a random forest mode**l to predict the rating score of any given reviewer. Through this model, not only can hotels collect customer reviews in advance to predict the customer's **potential scores** and make **corresponding countermeasures**, but also can dig out most **significant predictors** to better understand and manage their average scores.
 
-### **Train a Random Forest model**
+### Train a Random Forest model
 The final model is based on the hotels' situation:
 
 -   the current average score
@@ -58,7 +58,7 @@ pipe2 = make_pipeline(transformer, RandomForestRegressor(n_estimators=600,
 pipe2.fit(train_set, y_train);
 ```
 
-### **Explore important predictors**
+### Explore important predictors
 
 The score of this model is 0.45, and the mean percentage error is **13%.** The hotel can input the user's comment text obtained in advance to predict the score and carry out corresponding countermeasures.
 
