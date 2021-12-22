@@ -43,7 +43,7 @@ Polarity runs from -1 (most negative) to +1 (most positive). Plot the histograms
 >
 > The median polarity of negative reviews: 0.0
 
-Then take a look at the polarity distribution of the integrated reviews. Most polarities are near 0, which represents slightly negative feelings, and some are in the range of -0.2 to -0.1, which means strongly negative emotions. Also, some polarities are more evenly distributed in the field of 0.3-0.7, while a small number of polarities are more significant than 0.7.
+Here are **two interactive distribution plots**. Fssirst take a look at the polarity distribution of the integrated reviews. Most polarities are near 0, which represents slightly negative feelings, and some are in the range of -0.2 to -0.1, which means strongly negative emotions. Also, some polarities are more evenly distributed in the field of 0.3-0.7, while a small number of polarities are more significant than 0.7.
 
 <div id="hv-chart-1"></div>
 
