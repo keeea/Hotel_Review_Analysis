@@ -24,7 +24,10 @@ ff2
 ### Relationships between scores, subjectivity, and number of reviews
 <div id="altair-chart-2"></div>
 
-
+```python
+import altair as alt
+alt.renderers.enable('notebook')
+```
 
 ### **Radar map for hotel clusters**
 
