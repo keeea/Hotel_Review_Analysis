@@ -1,6 +1,6 @@
 ---
 title: "Clustering in hotels and customers"
-date: 2021-12-19
+date: 2021-12-17
 published: true
 tags: [dataviz, altair, hvplot, holoviews]
 hv-loader:
