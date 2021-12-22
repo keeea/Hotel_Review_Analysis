@@ -14,11 +14,9 @@ toc_sticky: true
 ---
 
 ## **- Predict scores from reviewers**
+Is a customer's rating of a hotel predictable? What relationship do the customer's review text and the rating give? I try to build **a random forest mode**l to predict the rating score of any given reviewer. Through this model, not only can hotels collect customer reviews in advance to predict the customer's **potential scores** and make **corresponding countermeasures**, but also can dig out most **significant predictors** to better understand and manage their average scores.
 
 ### **Train a Random Forest model**
-
-Is a customer's rating of a hotel predictable? What relationship do the customer's review text and the rating give? I try to build a random forest model to predict the rating score of any given reviewer. Through this model, not only can hotels collect customer reviews in advance to predict the customer's potential scores and make corresponding countermeasures, but also can dig out most significant predictors to better understand and manage their average scores.
-
 The final model is based on the hotels' situation:
 
 -   the current average score
@@ -41,20 +39,23 @@ The final model is based on the hotels' situation:
 
 -   the month of comments
 
+And here is the correlation matrix of four major predictors.
+![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/matrix.png?raw=true)
+
 ### **Explore important predictors**
 
-The score of this model is 0.45, and the mean percentage error is 13%. The hotel can input the user's comment text obtained in advance to predict the score and carry out corresponding countermeasures.
+The score of this model is 0.45, and the mean percentage error is **13%.** The hotel can input the user's comment text obtained in advance to predict the score and carry out corresponding countermeasures.
 
 At the same time, we can see that the most important predictors are:
 
--   the number of words in negative reviews given by reviewers
+-   **the number of words in negative reviews** given by reviewers
 
--   the polarity of positive reviews
+-   **the polarity of positive reviews**
 
--   the current average hotel score
-
+-   the current **average hotel score**
 
 <div id="hv-chart-1"></div>
 
+### Advice:
 
-Therefore, just like the sentiment analysis conclusion, to improve the overall scores, the hotels should try to make up for the shortcomings to reduce the factors that can be criticized, and provide users with higher emotional value.
+Therefore, just like the **sentiment analysis conclusion**, to improve the overall scores, the hotels should try to **make up for the shortcomings** first to reduce the factors that can be criticized, and then provide users with **higher emotional value**.
