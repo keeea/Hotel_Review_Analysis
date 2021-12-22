@@ -7,7 +7,6 @@ categories:
 tags:
   - Github Page
 ---
-
 Whether hotel managers like it or not, **guest reviews** are becoming an essential factor influencing people's booking/purchase. Think about our past experiences. When we are looking for vacation accommodation on **Booking.com,** we may unknowingly scroll down the screen to view reviews.
 
 ![fig.1 - Logo of Booking.com](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/booking_logo.png?raw=true)
