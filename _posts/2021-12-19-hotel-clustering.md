@@ -3,8 +3,8 @@ title: "Classify hotels based on their ratings and reviews"
 date: 2021-12-19
 published: true
 tags: [dataviz, altair, hvplot, holoviews]
-altair-loader:
-  altair-chart-1: "charts/measlesAltair.json"
+hv-loader:
+  hv-chart-1: ["charts/cust_cluster.html", "500"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
@@ -19,15 +19,9 @@ toc_sticky: true
 
 ### Relationships between scores, subjectivity, and number of reviews
 
-<div id="altair-chart-1"></div>
 
+<div id="hv-chart-1"></div>
 
-This was produced using Altair and embedded in this static web page. 
-
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
 
 ### **Radar map for hotel clusters**
 
