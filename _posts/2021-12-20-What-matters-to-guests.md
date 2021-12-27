@@ -49,8 +49,8 @@ What's more, each country has its unique characteristics. For example, reviewers
 
 ### Choropleth map of a certain word
 
-Then, the distribution of any particular word can be explored by plotting choropleth maps of word occurrence ratios. Here, I take an interesting review word, breakfast, as an example. The word "breakfast" typically appears once every five to eight reviews, varying from country to country.
+Then, the distribution of any particular word can be explored by plotting choropleth maps of word occurrence ratios. Here, I take an interesting review word, **breakfast**, as an example. The word "breakfast" typically appears once every five to eight reviews, varying from country to country.
 
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/breakfast.png?raw=true)
 
-**Advice:** Italian hotels need to pay more attention to the quality of breakfast, because according to reviews, their frequency of "breakfast" is the highest, indicating that their guests are more concerned about the breakfast service compared to guests in other countries.
+**Advice:** **Italian** hotels need to pay more attention to the quality of breakfast, because according to reviews, their frequency of "breakfast" is the highest, indicating that their guests are more concerned about the breakfast service compared to guests in other countries.
