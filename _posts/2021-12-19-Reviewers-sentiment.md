@@ -30,7 +30,9 @@ First, count how many reviews are overall unbiased (Polarity = 0) in integrated 
 
 Polarity runs from -1 (most negative) to +1 (most positive). Plot the histograms of the polarities of positive, negative and integrated reviews together with different colors. We can see that the polarity of negative reviews is concentrated in 0 - 0.2, while the polarity of positive reviews is concentrated in the range of 0.3 - 0.7, which proves that the algorithm's evaluation value of review sentiment is larger than the normal one. Therefore, the **polarity of the true neutral evaluation should be slightly greater than 0** in this case.
 
-> The average polarity of integrated reviews: 0.2052
+![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/polarity_bar.png?raw=true)
+
+> The average polarity of integrated reviews: 0.2052 
 >
 > The median polarity of integrated reviews: 0.15
 >
