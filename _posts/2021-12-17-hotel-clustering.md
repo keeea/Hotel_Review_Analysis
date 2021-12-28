@@ -59,7 +59,7 @@ This **interactive** relationship diagram allows you to view **specific individu
 <div id="hv-chart-1"></div>
 
 
-### Advuce:
+### Advice:
 
 The most significant target for Booking is **blue-old users who have not been active recentl**y. Because they have a high retention value, and the **retention cost** will be much lower than that of yellow users who have not written reviews for a long time. Incentive method like **discounts and credits** is suitable for such blue users.
 
