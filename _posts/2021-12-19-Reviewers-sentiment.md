@@ -45,6 +45,7 @@ Then, focused on integrated reviews. Most polarities are near 0, which represent
 <div id="hv-chart-1"></div>
 
 **Advice:** 
+
 This result enlightens hotel managers that the most important thing to pay attention to is to reduce the appearance of these extremely negative comments, that is, to **prioritize improving the shortages** rather than further optimizing the existing advantages.
 
 ### The distribution of subjectivity
@@ -54,6 +55,7 @@ The subjectivity of negative reviews is more concentrated at 0.4 and below, whil
 <div id="hv-chart-2"></div>
 
 **Advice:** 
+
 Therefore, if hotels want to increase the number of positive reviews, it's best to **provide customers with higher emotional value**, such as low-cost surprise gifts or services, and a significantly warm attitude.
 
 ### Explore the monthly trend of subjectivity
@@ -63,4 +65,5 @@ At last, explore the monthly trend of polarity and subjectivity. Interestingly, 
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/polarity_trend.png?raw=true "fig.1 - Polarity trend")![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/sub_trend.png?raw=true "Subjectivity trend")
 
 **Advice:** 
+
 In any case, it means that European hotels need to pay more attention to maintaining user experience, complaints, and evaluations in winter.

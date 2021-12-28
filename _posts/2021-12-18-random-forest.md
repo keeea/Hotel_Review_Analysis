@@ -22,23 +22,14 @@ Is a customer's rating of a hotel predictable? What relationship do the customer
 The final model is based on the hotels' situation:
 
 -   the current average score
-
 -   the total number of reviews
-
 -   scores from non-reviewers
-
 -   the located country
-
 -   and specific reviewer information:
-
 -   information related to the review text
-
 -   the last review time
-
 -   the total review number
-
 -   nationality of the reviewer
-
 -   the month of comments
 
 Here is a correlation matrix of four major predictors to see whther they are multilinear. ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/matrix.png?raw=true)
@@ -72,8 +63,7 @@ Explore this **interactive** bar chart, we can see that the most important predi
 
 -   the current **average hotel score**
 
-::: {#hv-chart-1}
-:::
+<div id="hv-chart-1"></div>
 
 ### Advice:
 

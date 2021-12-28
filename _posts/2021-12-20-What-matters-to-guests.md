@@ -55,4 +55,5 @@ Then, the distribution of any particular word can be explored by plotting chorop
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/breakfast.png?raw=true)
 
 **Advice:** 
+
 **Italian** hotels need to pay more attention to the quality of breakfast, because according to reviews, their frequency of "breakfast" is the highest, indicating that their guests are more concerned about the breakfast service compared to guests in other countries.
