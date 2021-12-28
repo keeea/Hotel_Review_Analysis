@@ -14,9 +14,11 @@ toc_sticky: true
 ---
 
 ## - Predict scores from reviewers
+
 Is a customer's rating of a hotel predictable? What relationship do the customer's review text and the rating give? I try to build **a random forest mode**l to predict the rating score of any given reviewer. Through this model, not only can hotels collect customer reviews in advance to predict the customer's **potential scores** and make **corresponding countermeasures**, but also can dig out most **significant predictors** to better understand and manage their average scores.
 
 ### Train a Random Forest model
+
 The final model is based on the hotels' situation:
 
 -   the current average score
@@ -39,11 +41,11 @@ The final model is based on the hotels' situation:
 
 -   the month of comments
 
-Here is a correlation matrix of four major predictors to see whther they are multilinear.
-![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/matrix.png?raw=true)
+Here is a correlation matrix of four major predictors to see whther they are multilinear. ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/matrix.png?raw=true)
 
-This is the simplified version of the prediction model, excluding feature engineering, parameters optimization and some model evaluations. 
-```{python}
+This is the simplified version of the prediction model, excluding feature engineering, parameters optimization and some model evaluations.
+
+``` {.python}
 # Set up the column transformer with two transformers
 transformer = ColumnTransformer(
     transformers=[("num", StandardScaler(), num_cols),
@@ -70,7 +72,8 @@ Explore this **interactive** bar chart, we can see that the most important predi
 
 -   the current **average hotel score**
 
-<div id="hv-chart-1"></div>
+::: {#hv-chart-1}
+:::
 
 ### Advice:
 
