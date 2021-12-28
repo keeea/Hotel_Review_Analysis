@@ -43,7 +43,8 @@ The quick **non-interactive** way with HTML:
 
 -   [Italy](https://keeea.github.io/word_cloud/html/Italy/index.html)
 
-**Insights:** As the results show, people are most concerned about the location and staff services in the **Netherlands, Italy, Spain, and Austria,** and there are more positive words in the evaluation (good, great, friendly, Etc.). In the **UK,** people are more concerned about rooms conditions and staff services, and the frequency of 'negative' is higher in reviews. In **France**, people pay more attention to rooms and breakfast, and negative words (negative, small, Etc.) appear more frequently.
+**Insights:** 
+As the results show, people are most concerned about the location and staff services in the **Netherlands, Italy, Spain, and Austria,** and there are more positive words in the evaluation (good, great, friendly, Etc.). In the **UK,** people are more concerned about rooms conditions and staff services, and the frequency of 'negative' is higher in reviews. In **France**, people pay more attention to rooms and breakfast, and negative words (negative, small, Etc.) appear more frequently.
 
 What's more, each country has its unique characteristics. For example, reviewers in **France** pay more attention to the night experience and shower experience.
 
@@ -54,5 +55,4 @@ Then, the distribution of any particular word can be explored by plotting chorop
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/breakfast.png?raw=true)
 
 **Advice:** 
-
 **Italian** hotels need to pay more attention to the quality of breakfast, because according to reviews, their frequency of "breakfast" is the highest, indicating that their guests are more concerned about the breakfast service compared to guests in other countries.
