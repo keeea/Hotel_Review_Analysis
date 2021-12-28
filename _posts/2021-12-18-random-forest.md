@@ -36,7 +36,7 @@ Here is a correlation matrix of four major predictors to see whther they are mul
 
 This is the simplified version of the prediction model, excluding feature engineering, parameters optimization and some model evaluations.
 
-``` {.python}
+```python
 # Set up the column transformer with two transformers
 transformer = ColumnTransformer(
     transformers=[("num", StandardScaler(), num_cols),
