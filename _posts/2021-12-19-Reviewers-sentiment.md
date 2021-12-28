@@ -26,7 +26,7 @@ First, count how many reviews are overall unbiased (Polarity = 0) in integrated 
 
 ### The distribution of polarity
 
-Polarity runs from -1 (most negative) to +1 (most positive). Plot the histograms of the polarities of positive, negative and integrated reviews together with different colors. We can see that the polarity of negative reviews is concentrated in 0 - 0.2, while the polarity of positive reviews is concentrated in the range of 0.3 - 0.7, which proves that the algorithm's evaluation value of review sentiment is larger than the normal one. Therefore, the **polarity of the true neutral evaluation should be slightly greater than 0** in this case.
+Polarity runs from -1 (most negative) to +1 (most positive). Normally speaking, polarity values of zero represent unbiased sentiment. However, for hotel reviews on Booking.com, both mean and median polarity values are higher than 0, which means that the algorithm's evaluation values are larger than the normal one. Therefore, the **polarity of true neutral reviews should be slightly greater than 0** in this case.
 
 ![](https://github.com/keeea/Hotel_Review_Analysis/blob/main/assets/images/polarity_bar.png?raw=true) { width: 200px; }
 > The average polarity of integrated reviews: 0.2052 
@@ -36,12 +36,12 @@ Polarity runs from -1 (most negative) to +1 (most positive). Plot the histograms
 > The median polarity of positive reviews: 0.4
 >
 > The average polarity of negative reviews: 0.0355
-> The median polarity of negative reviews: 0.0
-Here are **two interactive distribution plots**. Fssirst take a look at the polarity distribution of the integrated reviews. Most polarities are near 0, which represents slightly negative feelings, and some are in the range of -0.2 to -0.1, which means strongly negative emotions. Also, some polarities are more evenly distributed in the field of 0.3-0.7, while a small number of polarities are more significant than 0.7.
+> The median polarity of negative reviews: 0.01
+Here are **two interactive distribution plots**. First, take a look at the polarity one. We can see that the polarity of negative reviews is concentrated in 0 - 0.2, while the polarity of positive reviews is concentrated in the range of 0.3 - 0.7, proving the above conclusion again. Then, focused on integrated reviews. Most polarities are near 0, which represents slightly negative feelings; there is another little peak at -0.2, which represents extremely negative feelings; and there are also many polarities evenly distribute between 0.2 and 1, which represents positive feelings.
 
 <div id="hv-chart-1"></div>
 
-In summary, **positive reviews are a bit more** than negative reviews overall, but some **negative reviews are very extreme**. This result enlightens hotel managers that the most important thing to pay attention to is to reduce the appearance of these extremely negative comments, that is, to **prioritize improving the shortages** rather than further optimizing the existing advantages.
+In summary, the **overall review sentiment is more negative**, and most of them are just slightly negative, while there is **more chance to get extremely positive reviews**. This result enlightens hotel managers that the most important thing to pay attention to is to reduce the appearance of these extremely negative comments, that is, to **prioritize improving the shortages** rather than further optimizing the existing advantages.
 
 ### The distribution of subjectivity
 
