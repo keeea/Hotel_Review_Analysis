@@ -15,7 +15,7 @@ toc_sticky: true
 
 ## - Predict scores from reviewers
 
-Is a customer's rating of a hotel predictable? What relationship do the customer's review text and the rating give? I try to build **a random forest mode**l to predict the rating score of any given reviewer. Through this model, not only can hotels collect customer reviews in advance to predict the customer's **potential scores** and make **corresponding countermeasures**, but also can dig out most **significant predictors** to better understand and manage their average scores.
+Is a customer's rating of a hotel predictable? What's relationship between the customer's review text and the rating? **A random forest model** is built to predict the rating score of any given reviewer. Through this model, not only can hotels who collect customer reviews in advance predict the customer's **potential scores** and make **corresponding countermeasures**, but also can dig out most **significant predictors** to better understand and improve their average scores.
 
 ### Train a Random Forest model
 
@@ -25,7 +25,9 @@ The final model is based on the hotels' situation:
 -   the total number of reviews
 -   scores from non-reviewers
 -   the located country
--   and specific reviewer information:
+
+and specific reviewer information:
+
 -   information related to the review text
 -   the last review time
 -   the total review number
