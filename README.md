@@ -5,7 +5,7 @@ Lan Xiao
 
 1. a web-based data [visualization](https://keeea.github.io/Hotel_Review_Analysis/) with **description** of the project and the **results**
 
-2. a [document](https://github.com/MUSA-550-Fall-2021/final-project-lan_xiao/blob/main/whole_process.ipynb) stating the **description**, the **results**, the **technical methods** used in each step (collection, analysis and visualization), and all process **code**. 
+2. a [document](whole_process.ipynb) stating the **description**, the **results**, the **technical methods** used in each step (collection, analysis and visualization), and all process **code**.
 
 ## Kaggle authentication
 
