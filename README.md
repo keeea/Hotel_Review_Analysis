@@ -7,6 +7,27 @@ Lan Xiao
 
 2. a [document](https://github.com/MUSA-550-Fall-2021/final-project-lan_xiao/blob/main/whole_process.ipynb) stating the **description**, the **results**, the **technical methods** used in each step (collection, analysis and visualization), and all process **code**. 
 
+## Kaggle authentication
+
+Before starting Jupyter or importing `kaggle`, configure your own credentials
+outside this repository using either:
+
+- The `KAGGLE_USERNAME` and `KAGGLE_KEY` environment variables, inherited by the
+  notebook kernel.
+- A private `~/.kaggle/kaggle.json` file downloaded from your Kaggle account
+  settings. On macOS/Linux, restrict access with `chmod 600 ~/.kaggle/kaggle.json`.
+
+The notebook uses `KaggleApi.authenticate()` and does not set credentials itself.
+Some Kaggle client versions authenticate during import, so configure credentials
+before running the import cell. A `.env` file is not automatically loaded.
+Never paste credentials into notebook cells, outputs, or committed files.
+
+The notebook records Python 3.8.12; use a Kaggle client compatible with your Python
+environment rather than assuming current packages reproduce this historical setup.
+If credentials were exposed, expire/revoke the old key under **Legacy API
+Credentials** in [Kaggle API settings](https://www.kaggle.com/settings/api).
+Removing credentials from files or Git history does not revoke them.
+
 ## Technologies / Methods
 ### Collection 
 
